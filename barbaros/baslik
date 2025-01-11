@@ -1,0 +1,11 @@
+Origin: Debian
+Label: Debian
+Suite: stable
+Version: 1.0
+Codename: stable
+Changelogs: https://barbaros.github.io
+Date: XdateX
+Acquire-By-Hash: yes
+Architectures: amd64 i386
+Components: main contrib non-free
+Description: Test repository

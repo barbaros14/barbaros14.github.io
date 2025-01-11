@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Debian
+Label: Debian
+Suite: stable
+Version: 1.0
+Codename: stable
+Changelogs: https://barbaros.github.io
+Date: Sat, 11 Jan 2025 03:39:20 +0300
+Acquire-By-Hash: yes
+Architectures: amd64 i386
+Components: main contrib non-free
+Description: Test repository
+MD5Sum:
+  8e7272e6030a3c713ef501d24f1d17ee	268	Release
+  d41d8cd98f00b204e9800998ecf8427e	0	main/binary-amd64/Packages
+  19792ecc32b7bc1b4c48bb5cc6b7fca1	29	main/binary-amd64/Packages.gz
+  8dc5aea5b03dff8595f096f9e368e888	32	main/binary-amd64/Packages.xz
+SHA1:
+  20586070d64da7d143c4f72bd5e0069d30acfad5	521	Release
+  da39a3ee5e6b4b0d3255bfef95601890afd80709	0	main/binary-amd64/Packages
+  387fe53a1887508ec5380f82467b790d45c56306	29	main/binary-amd64/Packages.gz
+  9746882f4236fa1c3a8f86be2f1d9c46680c0b10	32	main/binary-amd64/Packages.xz
+SHA256:
+  3a201cbd0283ed4ec0918cf1fad37519d413ba8ea4a8c8d381983a5926e03d47	808	Release
+  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	0	main/binary-amd64/Packages
+  cfcff58a34cf98390dd935f9f8ac268576f3cf155a8d3fbc731e0a16ee21c663	29	main/binary-amd64/Packages.gz
+  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275	32	main/binary-amd64/Packages.xz
+SHA512:
+  dfa65103f602e5be9f2d9d5691a7f122d106d885b34f3ee37fdb472e71b606493ee4d6c15e06ac50154438fec5bd089c8b87772f12d721f42ef69567c7f8851c	1191	Release
+  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e	0	main/binary-amd64/Packages
+  2ec88aea2b6c80cd481e58c877c7226f190dff07283bcd2364e0a8fbd41841eafdc1cc08e8dac0f5012d6e8e69ff6d8657ca2ba03808fe54d8ec0e510b6027e1	29	main/binary-amd64/Packages.gz
+  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527	32	main/binary-amd64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEERe12V5YwaNk2Amb/sAF3lf6UHpoFAmeBv/wACgkQsAF3lf6U
+HpoZ6AwAiGXlq1+XjPxLw0AMQKaUgbvgzN2pcfoYS+vByQBVOPP96rbW1CGrE5py
+lN+dAd/fG7OKizglUiMtwPdTP0sIeWHRCV/Z2vaD+d60BIp6UORs9CcFwjhizE9w
+leJlclTIRTkvGpTMbEr3kA4oD+J6jgJjmVcUKgt7ZwItykFMKXoA+JfttpLQhkHr
+e++MhDhIwio0xm+zNjuiN4yQh9aaXEE5rCf9t0gPqBn0Nlkqr+VFhT31NWoE+wE/
+dwPdjZ66Gkg3vOKyoFAsLKfVhFA5Z14bDIudFzB1RTXz5RdeF2wxEIk9QUwAZ0Le
+jlyCDG37hUBoP/hHA7wwBCr8Kt5oHtm7DTFlH2gA2UL68ifSmNz+Zt44ab+dp4ae
+V6zYKgYFWGBcnzWTqybWh+gMuLdkeamB79Ha3CnVoCzkzX20UjbkICmekF1su2q+
+U0Fb52kP2gSfgFhex4PWTuCL8jV0/IJebSSjBs85j4F0tH5Gj+43bfjTcx+tgTti
+lpU92est
+=g2rW
+-----END PGP SIGNATURE-----
