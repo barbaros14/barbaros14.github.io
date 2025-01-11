@@ -1,3 +1,18 @@
+Package: activitywatch
+Architecture: amd64
+Version: 0.13.2
+Priority: optional
+Maintainer: Erik Bjäreholt <erik@bjareho.lt>
+Depends:
+Filename: pool/main/a/activity-watch/activity-watch-0.13.2_amd64.deb
+Size: 72731192
+MD5sum: c0bd9691297a16e6022781a222bfff36
+SHA1: 9291bf95da71a51492fe47383cbe8cb56998b892
+SHA256: 36e3cb3b41e7717fef2e9dbf3b6e660bb08b1a8ff7784bd5c8db720bec57fd93
+SHA512: f6b5fa1abed94ecde66d7e1c7a6b8dffa91ec93b65388f4f53f9c206ed55d3844daf0a71380451158eafe38da0ebd2f7d103a9ba8e6eadfa7719c85bbb393dfb
+Description: Open source time tracker
+ https://github.com/ActivityWatch/activitywatch
+
 Package: musikcube
 Architecture: amd64
 Version: 3.0.4
