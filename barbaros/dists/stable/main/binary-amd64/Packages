@@ -1,0 +1,32 @@
+Package: musikcube
+Architecture: amd64
+Version: 3.0.4
+Priority: optional
+Section: devel
+Maintainer: casey langen
+Installed-Size: 29126
+Filename: pool/main/m/musikcube/musikcube-3.0.4_amd64.deb
+Size: 10246538
+MD5sum: 288c670ea11451b0ff195bcd69872478
+SHA1: ee0275b7e1940a21bd7b5c5b53098682866395a9
+SHA256: d0c2b46cb494cca254d399ef7e0b6390399b36c2324e3b2014ea4798800ca4fe
+SHA512: 54ec6f0ed2772057c8008550dd53c4bc49bb1055fcd12cfa5ce596eb04f6279d81555889d717cc80f4e799a30311c9d5c185975300df94c23b9efb9027215954
+Description: musikcube, a terminal-based music player and library
+
+Package: zen-browser
+Architecture: amd64
+Version: 1.6.1b
+Priority: optional
+Section: web
+Maintainer: Pardus Dev <dev@pardus.org.tr>
+Installed-Size: 301448
+Filename: pool/main/z/zen-browser/zen-browser-1.6.1b_amd64.deb
+Size: 78775580
+MD5sum: 81d9bdf724331c58fd390f57ef2151c1
+SHA1: d50076868a88db2bf2611573c2cf757ce6233549
+SHA256: 2a9aedd961377eaea262452f916dbc8bbe4614a31dda0ca8a1fdf7ad608310d0
+SHA512: e55aba733d7717a5b9ea77f41f6ae85a4bf3f47e34b7c116f807ea4476cf5c83ac7df92c5e2a300d4f10ff168420a2dde947039264081cda06c2c64488b6d3db
+Homepage: https://github.com/zen-browser/desktop
+Description: Zen Browser
+ Zen Browser.
+
