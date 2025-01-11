@@ -45,6 +45,21 @@ SHA512: a4da4c7ccff97fd604f044d1b468ce1db1e9c9d9f2d8efb6e1313c2e529c2c5513bffd5f
 Description: a Cross-Platform Prayer Times application.
  a Cross Platform Prayer Times Application. Requires internet to fetch prayer times from diyanet.gov.tr.
 
+Package: xdman
+Architecture: amd64
+Version: 8.0.29
+Maintainer: Subhra Das Gupta
+Depends: libgtk-3-0 (>= 3.22.11)
+Recommends: ffmpeg
+Filename: pool/main/x/xdman-gtk/xdman_gtk-8.0.29_amd64.deb
+Size: 10349588
+MD5sum: 3a67fa5716036948e044296e34e5347e
+SHA1: 9cb8d972c9c151d209bf72aa5701f9133bdb6b13
+SHA256: 3659bb2db0251c8df0fa501e53185fd03c7b15d7b58c22a2b60b93144b6b9e11
+SHA512: 79330434bdabae2c88b8df59ff9fbc112d2518979b7bbf1d51aa85a6fcc48efa694f52549591e1fdda70152d3ab4946fc549918fabf049e116fc281e6abaee0b
+Description: Open source download accelerator and video downloader.
+ Open source download accelerator and video downloader.
+
 Package: zen-browser
 Architecture: amd64
 Version: 1.6.1b
