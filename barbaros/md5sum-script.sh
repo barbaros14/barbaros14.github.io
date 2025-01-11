@@ -8,7 +8,7 @@ prepareLine() {
     done
 }
 
-cat baslik | sed "s/XdateX/$(date -R)/g" > dists/stable/Release
+cat baslik | sed "s/XdateX/$(date -Ru)/g" > dists/stable/Release
 cd dists/stable/
 echo "MD5Sum:" >>  Release
 find . -type f | xargs md5sum | prepareLine >> Release

@@ -4,7 +4,7 @@ Suite: stable
 Version: 1.0
 Codename: stable
 Changelogs: https://barbaros.github.io
-Date: LANG=en_US.UTF-8 date --utc +"%a, %d %b %Y %T UTC"
+Date: XdateX
 Acquire-By-Hash: yes
 Architectures: amd64 i386
 Components: main contrib non-free
