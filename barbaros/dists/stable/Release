@@ -4,7 +4,7 @@ Suite: stable
 Version: 1.0
 Codename: stable
 Changelogs: https://barbaros.github.io
-Date: Sat, 11 Jan 2025 03:39:20 +0300
+Date: Sat, 11 Jan 2025 03:39:20 UTC
 Acquire-By-Hash: yes
 Architectures: amd64 i386
 Components: main contrib non-free
