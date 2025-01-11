@@ -1,3 +1,20 @@
+Package: vaktisalah
+Architecture: amd64
+Version: 1.4
+Priority: standard
+Section: utils
+Maintainer: Emin Fedar <eminfedar@gmail.com>
+Installed-Size: 288
+Depends: libqt5quick5, libqt5qml5, libqt5gui5, libqt5network5, libqt5core5a, libstdc++6, libc6, libqt5multimedia5, qml-module-qtmultimedia, qml-module-qtquick-controls2, qml-module-qtquick-window2, qml-module-qtquick2
+Filename: pool/contrib/u/upnote/vaktisalah-1.4_amd64.deb
+Size: 107140
+MD5sum: 284adf4be3b71b7479db3fc0b8a2386b
+SHA1: 6066eac6d388999320f4d435a34a1da5256825b1
+SHA256: e74e6a2c4b19feaeba552d341bef33924f85eb5ec7fbc1a7eb7336765dcd799b
+SHA512: a4da4c7ccff97fd604f044d1b468ce1db1e9c9d9f2d8efb6e1313c2e529c2c5513bffd5f1a5e5e2c3e243d06291e205cdc84dd9becec6c3cacede61ab24482a1
+Description: a Cross-Platform Prayer Times application.
+ a Cross Platform Prayer Times Application. Requires internet to fetch prayer times from diyanet.gov.tr.
+
 Package: activitywatch
 Architecture: amd64
 Version: 0.13.2
@@ -27,23 +44,6 @@ SHA1: ee0275b7e1940a21bd7b5c5b53098682866395a9
 SHA256: d0c2b46cb494cca254d399ef7e0b6390399b36c2324e3b2014ea4798800ca4fe
 SHA512: 54ec6f0ed2772057c8008550dd53c4bc49bb1055fcd12cfa5ce596eb04f6279d81555889d717cc80f4e799a30311c9d5c185975300df94c23b9efb9027215954
 Description: musikcube, a terminal-based music player and library
-
-Package: vaktisalah
-Architecture: amd64
-Version: 1.4
-Priority: standard
-Section: utils
-Maintainer: Emin Fedar <eminfedar@gmail.com>
-Installed-Size: 288
-Depends: libqt5quick5, libqt5qml5, libqt5gui5, libqt5network5, libqt5core5a, libstdc++6, libc6, libqt5multimedia5, qml-module-qtmultimedia, qml-module-qtquick-controls2, qml-module-qtquick-window2, qml-module-qtquick2
-Filename: pool/main/v/vakti-salah/vaktisalah-1.4_amd64.deb
-Size: 107140
-MD5sum: 284adf4be3b71b7479db3fc0b8a2386b
-SHA1: 6066eac6d388999320f4d435a34a1da5256825b1
-SHA256: e74e6a2c4b19feaeba552d341bef33924f85eb5ec7fbc1a7eb7336765dcd799b
-SHA512: a4da4c7ccff97fd604f044d1b468ce1db1e9c9d9f2d8efb6e1313c2e529c2c5513bffd5f1a5e5e2c3e243d06291e205cdc84dd9becec6c3cacede61ab24482a1
-Description: a Cross-Platform Prayer Times application.
- a Cross Platform Prayer Times Application. Requires internet to fetch prayer times from diyanet.gov.tr.
 
 Package: xdman
 Architecture: amd64
