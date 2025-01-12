@@ -77,6 +77,21 @@
             background: turquoise;
         }
 
+        @media only screen and (max-width: 768px) {
+            /* Stil tanımları */
+            body {
+                font-size: 16px;
+            }
+            #main-content > .apps-box > .box-body{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            #main-content > .apps-box > .box-body > .app > .app-actions {
+                display: flex;
+                gap: 0;
+                flex-direction: column;
+            }
+        }
+
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function(){
@@ -109,7 +124,7 @@
                 appActions.className = 'app-actions';
     
                 const sourceCode = document.createElement('a');
-                sourceCode.textContent = 'Kaynak Kodu\n[Yakında Eklenecek]';
+                sourceCode.textContent = 'Kaynak Kodu [Yakında]';
                 appActions.appendChild(sourceCode);
     
                 const downloadLink = document.createElement('a');
