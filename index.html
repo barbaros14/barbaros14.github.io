@@ -13,12 +13,26 @@
         a{
             text-decoration: none;
             color: black;
+            cursor: pointer;
         }
         #main-content{
             display: flex;
             flex-direction: column;
             padding: 2rem;
             gap: 1rem;
+        }
+        #main-content > .notice-content{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        #main-content > .notice-content a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1rem;
+            padding: 1rem;
+            background: turquoise;
         }
         #main-content > .apps-box{
             display: flex;
@@ -52,6 +66,28 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background: white;
             min-width: fit-content;
+        }
+        #main-content > .apps-box > .box-body > .app > .appCommandBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.75rem;
+            border-radius: 1rem;
+            background: aquamarine;
+        }
+        #main-content > .apps-box > .box-body > .app > .appCommandBox > .command-copy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            width: 100%;
+            font-weight: bold;
+        }
+        #main-content > .apps-box > .box-body > .app > .appCommandBox > .command-copy:hover{
+            background: turquoise;
         }
         #main-content > .apps-box > .box-body > .app > #app-name{
             font-weight: bold;
@@ -115,11 +151,26 @@
                 appName.id = 'app-name';
                 appName.textContent = data.Package;
                 app.appendChild(appName);
-    
+
+                
                 const version = document.createElement('p');
                 version.textContent = data.Version;
                 app.appendChild(version);
-    
+                
+                const appCommandBox = document.createElement("div");
+                appCommandBox.className = "appCommandBox";
+                app.appendChild(appCommandBox);
+
+                const appCommand = document.createElement('a');
+                appCommand.className = 'command';
+                appCommand.textContent = "sudo apt install " + data.Package;
+                appCommandBox.appendChild(appCommand);
+
+                const copyCommand = document.createElement("p");
+                copyCommand.className = "command-copy"
+                copyCommand.textContent = "Komutu Kopyala";
+                appCommandBox.append(copyCommand);
+                
                 const appActions = document.createElement('div');
                 appActions.className = 'app-actions';
     
@@ -140,10 +191,39 @@
             }
         });
 
+        document.addEventListener("click", function(e){
+            const element = e.target;
+            if(element.classList.contains("command-copy")){
+                copyText(element.parentElement.querySelector(".command").innerText);
+            };
+        });
+
+        function copyText(data) {
+            navigator.clipboard.writeText(data)
+                .then(() => {
+                alert("Kod kopyalandı: " + data);
+                })
+                .catch((err) => {
+                console.error("Hata:", err);
+            });
+        };
+
     </script>
 </head>
 <body>
     <div id="main-content">
+        <div class="notice-content">
+            <div>
+                <p style="font-weight: bold;">Depoları Kurma</p>
+                <p class="command">wget https://barbaros14.github.io/barbaros/install.sh && sudo chmod +x install.sh && sudo ./install.sh && rm install.sh && sudo apt update</p>
+                <a class="command-copy">Kodu Kopyala</a>
+            </div>
+            <div>
+                <p style="font-weight: bold;">Depoları Silme</p>
+                <p class="command">sudo rm /etc/apt/sources.list.d/barbaros.list && sudo rm /usr/share/keyrings/barbaros.gpg* && sudo apt clean && sudo apt update</p>
+                <a class="command-copy">Kodu Kopyala</a>
+            </div>
+        </div>
         <div class="apps-box">
             <div class="box-head">
                 <div class="box-title">
