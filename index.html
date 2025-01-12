@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #main-content{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            gap: 1rem;
+        }
+        #main-content > .apps-box{
+            display: flex;
+            flex-direction: column;
+            border-radius: 1rem;
+            overflow: hidden;
+            border: 0.25rem solid turquoise;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        #main-content > .apps-box > .box-head{
+            display: flex;
+            padding: 1.5rem;
+            background: turquoise;
+            font-weight: bold;
+        }
+        #main-content > .apps-box > .box-body{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(26rem,1fr));
+            padding: 1rem;
+            gap: 1rem;
+        }
+        #main-content > .apps-box > .box-body > .app{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            gap: 1rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background: white;
+            min-width: fit-content;
+        }
+        #main-content > .apps-box > .box-body > .app > #app-name{
+            font-weight: bold;
+        }
+        #main-content > .apps-box > .box-body > .app:hover{
+            background: aquamarine;
+        }
+        #main-content > .apps-box > .box-body > .app > .app-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        #main-content > .apps-box > .box-body > .app > .app-actions > a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+        #main-content > .apps-box > .box-body > .app > .app-actions > a:hover{
+            background: turquoise;
+        }
+
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            // const url = window.location.origin;
+            const url = "https://barbaros14.github.io";
+            
+            const p = fetch(url + "/barbaros/packages.json").then(response => {
+                return response.json();
+            });
+
+            p.then(get => get.forEach(app => {
+                console.log(app);
+                create_AppBox(app)
+            }));
+            
+            function create_AppBox(data){
+                const app = document.createElement('div');
+                app.className = 'app';
+    
+                const appName = document.createElement('a');
+                appName.id = 'app-name';
+                appName.textContent = data.Package;
+                app.appendChild(appName);
+    
+                const version = document.createElement('p');
+                version.textContent = data.Version;
+                app.appendChild(version);
+    
+                const appActions = document.createElement('div');
+                appActions.className = 'app-actions';
+    
+                const sourceCode = document.createElement('a');
+                sourceCode.textContent = 'Kaynak Kodu\n[Yakında Eklenecek]';
+                appActions.appendChild(sourceCode);
+    
+                const downloadLink = document.createElement('a');
+                downloadLink.href = url + "/barbaros/" + data.Filename.trim();
+                downloadLink.textContent = 'İndir';
+                appActions.appendChild(downloadLink);
+    
+                app.appendChild(appActions);
+    
+                const boxBody = document.querySelector(".box-body");
+                console.log(boxBody);
+                boxBody.appendChild(app);
+            }
+        });
+
+    </script>
+</head>
+<body>
+    <div id="main-content">
+        <div class="apps-box">
+            <div class="box-head">
+                <div class="box-title">
+                    <p>UYGULAMALAR</p>
+                </div>
+            </div>
+            <div class="box-body">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
