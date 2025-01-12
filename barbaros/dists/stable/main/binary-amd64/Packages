@@ -67,6 +67,21 @@ Description: PeaZip free file archiver utility, GTK2 build
  supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
  GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
 
+Package: rofi-tdk
+Architecture: amd64
+Version: 1.0
+Priority: optional
+Section: x11
+Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
+Filename: pool/main/r/rofi-tdk/rofi-tdk_1.0_amd64.deb
+Size: 14752240
+MD5sum: 0bf2ebf85abd4593b5570aa0c366a939
+SHA1: 374e727ea12da923efb57838301c055bf869d0ad
+SHA256: 1f8e35f0d84465a6d733cb91a80c20d0cc525c589717a9fa3de63cee749753aa
+SHA512: de8969cff148cc926a7d6233bb08bba274c5a5898365cc3c3b12643e431867880de3e94927cafed4fd3e6a2f6ccbcbd2e472ad53865a91b8a51b7995da4c5bbe
+Homepage: https://github.com/metwse/rofi-tdk.sh
+Description: Türkçe sözlüğe direkt Rofi'den erişin.
+
 Package: standard-notes
 Architecture: amd64
 Version: 3.195.22
