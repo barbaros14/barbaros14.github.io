@@ -13,6 +13,27 @@ SHA512: f6b5fa1abed94ecde66d7e1c7a6b8dffa91ec93b65388f4f53f9c206ed55d3844daf0a71
 Description: Open source time tracker
  https://github.com/ActivityWatch/activitywatch
 
+Package: freetube
+Architecture: amd64
+Version: 0.22.1
+Priority: optional
+Section: default
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 275451
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/main/f/freetube/freetube_0.22.1_amd64.deb
+Size: 76861498
+MD5sum: 30ec39ed525d1bd1f0dbe68713614b35
+SHA1: 06f11d7daf337a23281d0e73b29bad01fbd6909c
+SHA256: 23316475faeb035ef40e1970e61ef53ee06ce6a4dfb12e0ba790f5f92059b9ae
+SHA512: 1ba1a74750c185d3fbb825d90d378e427fe32a2e1e61f2299677be457e454248f4df1462f6f46e32122434e7c672776dbff55bdca0e1a6b7d944bec3eb1af0e4
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Description: 
+  A private YouTube client
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+
 Package: musikcube
 Architecture: amd64
 Version: 3.0.4
@@ -27,6 +48,66 @@ SHA1: ee0275b7e1940a21bd7b5c5b53098682866395a9
 SHA256: d0c2b46cb494cca254d399ef7e0b6390399b36c2324e3b2014ea4798800ca4fe
 SHA512: 54ec6f0ed2772057c8008550dd53c4bc49bb1055fcd12cfa5ce596eb04f6279d81555889d717cc80f4e799a30311c9d5c185975300df94c23b9efb9027215954
 Description: musikcube, a terminal-based music player and library
+
+Package: peazip
+Architecture: amd64
+Version: 10.2.0
+Priority: optional
+Section: contrib/utils
+Maintainer: Giorgio Tani <giorgio.tani.software@gmail.com>
+Filename: pool/main/p/peazip/peazip-10.2.0_amd64.deb
+Size: 11163294
+MD5sum: 4f4d1181a808362cb00a5a52af063188
+SHA1: d0bafc2404c84b58661658b0bf994db31fe61bad
+SHA256: a53baebe2adec95952866a89cb81b1d19fbc8366eefaaf352d4e3fca133ae2d0
+SHA512: a4508266caf3cf197cf51d54cb2e9c06d5d0d21571e257df4b5a27aea151f2d3781db12cb050409aee3642a8833fe3567fd0def107a07337513db019b1ca2a47
+Homepage: https://peazip.github.io
+Description: PeaZip free file archiver utility, GTK2 build
+ PeaZip is an Open Source (LGPLv3) cross-platform archive manager utility, 
+ supporting over 200 archiving and compression formats as 7Z, BZip2, Brotli, 
+ GZip, PEA, RAR, ZIP, ZPAQ, Zstandard, and many more.
+
+Package: standard-notes
+Architecture: amd64
+Version: 3.195.22
+Priority: optional
+Section: default
+Maintainer: Standard Notes <help@standardnotes.com>
+Installed-Size: 467002
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/main/s/standardnotes/standardnotes-3.195.22_amd64.deb
+Size: 101960188
+MD5sum: a1092888d86d196583cc5970d74c5c46
+SHA1: 917dd8ba00d3046ee9ed74b3f16c9ea635825ef3
+SHA256: 969caf58ef30def8e206a786bd2c5c0e87d0c1c238cddb9e5cc82a687c31cd70
+SHA512: 70e5ea16231160019828fd993bbec09e0be934d9a61bf3804c68c5cb712fbb30cffad0122c0e5ae1acfa530e18a2b06e085dd1342038c23fe92a360d60284516
+Homepage: https://github.com/standardnotes/app#readme
+Description: 
+  An end-to-end encrypted notes app for digitalists and professionals.
+License: unknown
+Vendor: Standard Notes <help@standardnotes.com>
+
+Package: superproductivity
+Architecture: amd64
+Version: 11.1.2
+Priority: optional
+Section: default
+Maintainer: Johannes Millan <contact@super-productivity.com>
+Installed-Size: 314183
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/main/s/super-productivity/super-productivity_11.1.2_amd64.deb
+Size: 85107814
+MD5sum: 13fa3658f0d11a48202112fc3c7e0023
+SHA1: 9be46d54b1098080e2b9d11c07e9c8581d1a9d61
+SHA256: 06b78be1c0bfe79f9886bd52d235d01866b270c50575b12895e2de13f9020f88
+SHA512: 759e1541b6650a5eb3e8240d7f77f190ba062296f3b13cfb0ebc4490873a1e958cb10ea9e1bccc5b40e392dcee76f4ad7ae6a448947466e7033f6d8c7d2af1b9
+Homepage: http://super-productivity.com
+Description: 
+  ToDo list and Time Tracking
+License: MIT
+Vendor: Johannes Millan <contact@super-productivity.com>
 
 Package: xdman
 Architecture: amd64
