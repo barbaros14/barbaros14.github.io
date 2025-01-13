@@ -146,7 +146,7 @@ Priority: optional
 Section: web
 Maintainer: Pardus Dev <dev@pardus.org.tr>
 Installed-Size: 301448
-Filename: pool/main/z/zen-browser/zen-browser-1.6.1b_amd64.deb
+Filename: pool/main/z/zen-browser/zen-browser-1.6b_amd64.deb
 Size: 78775580
 MD5sum: 81d9bdf724331c58fd390f57ef2151c1
 SHA1: d50076868a88db2bf2611573c2cf757ce6233549
@@ -158,17 +158,17 @@ Description: Zen Browser
 
 Package: zen-browser
 Architecture: amd64
-Version: 1.6.1b
+Version: 1.6.1t
 Priority: optional
 Section: web
-Maintainer: Pardus Dev <dev@pardus.org.tr>
+Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
 Installed-Size: 301448
 Filename: pool/main/z/zen-browser/zen-browser_1.6t.1_amd64.deb
-Size: 78775904
-MD5sum: f010c0a3f5edc28fdf7c1ebe0c5880c0
-SHA1: dd24cebb3e4cbfb6f2d26cf5ebcd4b270e553a5a
-SHA256: 70b7b8ec6b8772fc3571589136cec7a0a5951b24e74d7dc0d00ed11f9820194d
-SHA512: 5013d233310411cb0588c4afbcdf54a00812574b79edb1ceca6ea815f55d54f0112c9fd50bea750e4d7c67067db99ab000f905ccaae060d2d8db302fc8d3385c
+Size: 78775908
+MD5sum: 98578f4e16da162c2e63b428049a9dc1
+SHA1: 253737302f790adf2a96297bddda8702f5934bba
+SHA256: db36bf952a4d86e81b636a7dd453ac74aee2e829c98f3f0caaf450ea2fe03fad
+SHA512: de2e5662ef40f812e4025c48fc217c00a2d6d26b660b262f3c24e851318951200ce7aaf5e67586c1edf6a8186ebce04241627037aa3940b5f8837936286d8f93
 Homepage: https://github.com/zen-browser/desktop
 Description: Zen Browser
  Zen Browser.
