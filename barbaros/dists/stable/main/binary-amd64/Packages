@@ -21,11 +21,11 @@ Section: x11
 Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
 Depends: python3-dev, python3-tk, python3-setuptools, python3-wheel, python3-pip, python3-wxgtk4.0, python3-pynput
 Filename: pool/main/a/atbswp/atbswp_0.3.0_amd64.deb
-Size: 4305548
-MD5sum: 0c3646fb15bbc4067807b6af069495d9
-SHA1: 18b01e628030ea0d7640567099c9f96964b047e5
-SHA256: d6b5ffeef83dc60286b81583d53358e809d79066606eb667730e4b055cdf2d0d
-SHA512: 42e6fdf4c23b9c0576cd879dbd0a70b6f4b389cf4c37d60b41f9aa01196228d01bd08455760eb1116beb2e432c910c887a0d09f8aba213edc8ccc1d0189e6c2a
+Size: 4305540
+MD5sum: e4e1a87b07ac3d9e80c15b7a7d3df9a6
+SHA1: 406ab5d66b47dc680dd4ec6620ec761866f9475c
+SHA256: 22e5e7ba40da0ff86e35f22d0a652f0848df048fe94428eb631b027797c5f7c1
+SHA512: c51a3a681fe625f6d7a76576dd1c730c7bf139ecbaffbf9608b7065c38cbc01fe0f88cc66d97eeaf811930fe70b9dd5b812ff051b2e22d97fd7cf5fe38268ce9
 Homepage: https://github.com/RMPR/atbswp
 Description: Python ile fare ve klavye hareketlerini kaydedip tekrar ederek sıkıcı görevleri otomatikleştiren minimalist bir makro kaydedici.
  ATBSWP.
