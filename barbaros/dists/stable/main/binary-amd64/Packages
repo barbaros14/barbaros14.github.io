@@ -13,6 +13,23 @@ SHA512: f6b5fa1abed94ecde66d7e1c7a6b8dffa91ec93b65388f4f53f9c206ed55d3844daf0a71
 Description: Open source time tracker
  https://github.com/ActivityWatch/activitywatch
 
+Package: atbswp
+Architecture: amd64
+Version: 0.3.0
+Priority: optional
+Section: x11
+Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
+Depends: python3-dev, python3-tk, python3-setuptools, python3-wheel, python3-pip, python3-wxgtk4.0, python3-pynput
+Filename: pool/main/a/atbswp/atbswp_0.3.0_amd64.deb
+Size: 4305464
+MD5sum: 811aa962491e9025e8ab9cdaaacef183
+SHA1: bc956b33a172327dd0bd7abbd661b09d47ecc450
+SHA256: f134b09c77eba6f2ac16009042c05bcc45cf81ca8f65631377bd016e3f710c6e
+SHA512: edba7c2f3e1e9af0f2c7d68af85c6835ac52df5de7b4785885e9a79656393c2e87e419dc51e86f3f3f058ff207f4d3efebaa8148b776e7fbabf090371f71d57a
+Homepage: https://github.com/RMPR/atbswp
+Description: Python ile fare ve klavye hareketlerini kaydedip tekrar ederek sıkıcı görevleri otomatikleştiren minimalist bir makro kaydedici.
+ ATBSWP.
+
 Package: freetube
 Architecture: amd64
 Version: 0.22.1
