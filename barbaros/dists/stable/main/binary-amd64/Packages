@@ -141,6 +141,23 @@ Description:
 License: MIT
 Vendor: Johannes Millan <contact@super-productivity.com>
 
+Package: vaktisalah
+Architecture: amd64
+Version: 1.4.6
+Priority: optional
+Section: x11
+Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
+Depends: qtdeclarative5-dev, qtbase5-dev, qtmultimedia5-dev
+Filename: pool/main/v/vaktisalah/vaktisalah_1.4.6_amd64.deb
+Size: 1320704
+MD5sum: 53f5a74e6a809ec1ff020fda9fea1e14
+SHA1: 38682400f33719c91f029dfb7765cb7a597d17d3
+SHA256: c8c5738cf0b0e52a5127156cf16278ab5adc83bbc30ae49075a53e5a31a5ae71
+SHA512: 76d186d86d237aade1b8b5e6f6a85d7df8ab6e79c7c5e20a93b95aa305ac264713ba9be6fa6c68063174de935d00b31f9ee37b258aa49975d6c7be894686646b
+Homepage: https://github.com/eminfedar/vaktisalah
+Description: Namaz vakitleri uygulaması
+ Vakt-i Salah.
+
 Package: xdman
 Architecture: amd64
 Version: 8.0.29
