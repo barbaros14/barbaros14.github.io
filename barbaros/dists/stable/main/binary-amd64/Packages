@@ -192,18 +192,18 @@ Description: Zen Browser
 
 Package: zen-browser
 Architecture: amd64
-Version: 1.6.1t
+Version: 1.7b
 Priority: optional
-Section: web
+Section: x11
 Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
 Installed-Size: 301448
-Filename: pool/main/z/zen-browser/zen-browser_1.6t.1_amd64.deb
-Size: 78775908
-MD5sum: 98578f4e16da162c2e63b428049a9dc1
-SHA1: 253737302f790adf2a96297bddda8702f5934bba
-SHA256: db36bf952a4d86e81b636a7dd453ac74aee2e829c98f3f0caaf450ea2fe03fad
-SHA512: de2e5662ef40f812e4025c48fc217c00a2d6d26b660b262f3c24e851318951200ce7aaf5e67586c1edf6a8186ebce04241627037aa3940b5f8837936286d8f93
+Filename: pool/main/z/zen-browser/zen-browser_1.7b_amd64.deb
+Size: 79970052
+MD5sum: 9a95801d197ab415b84ae6c479d5d4aa
+SHA1: 89dccf89d4dd9a56c34d024b467b157347cb91da
+SHA256: 38e06d302378b0605d4fb816927152235ff1c5c522b0b86b6177d12a91bc7ca6
+SHA512: 5fdbe2b96ec0255532148cd491ddfd1cdce97c8785dc4f24bf11430be693d21d2514f09adceca6f7aeaf1177122392b7cf6e7e2427792e141bd328228a40c8b0
 Homepage: https://github.com/zen-browser/desktop
-Description: Zen Browser
+Description: Firefox tabanlı modern tarayıcı
  Zen Browser.
 
