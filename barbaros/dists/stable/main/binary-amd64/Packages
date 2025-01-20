@@ -173,6 +173,21 @@ SHA512: 79330434bdabae2c88b8df59ff9fbc112d2518979b7bbf1d51aa85a6fcc48efa694f5254
 Description: Open source download accelerator and video downloader.
  Open source download accelerator and video downloader.
 
+Package: yt-dlp
+Architecture: amd64
+Version: 2025.01.15
+Priority: optional
+Section: x11
+Maintainer: Batuhan Coşkun <bc1428@vuhuv.com>
+Filename: pool/main/y/yt-dlp/yt-dlp_2025.01.15_amd64.deb
+Size: 34324144
+MD5sum: e0096fcc547d2bbafdecb5318286da74
+SHA1: 7eb783b0d18b39be5557e046bf5bc8cc437bab42
+SHA256: 175af994c964caea1d79770549e99a278b68be3e8e291c69c686ae54d5558ace
+SHA512: 594cabe9f655157acf1f6c3967fc71525cdf0b0aa494d870be9f432cd7a173c89c33a84f54704970203004c82b1da79074a50ffa3db2b81b162bbfebea7fc92c
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: Youtube videoları ve sesleri indirme aracı
+
 Package: zen-browser
 Architecture: amd64
 Version: 1.6.1b
